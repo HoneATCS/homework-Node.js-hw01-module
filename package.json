@@ -8,14 +8,17 @@
     "start": "node index.js",
     "start: dev": "nodemon index.js"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoneATCS/homework-Node.js-hw01-module.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^10.0.1",
-    "nanoid": "^2.1.2",
-    "nodemon": "^2.0.22"
+    "commander": "^10.0.1"
   },
-  "devDependencies": {
-    "@types/nanoid": "^3.0.0"
+  "homepage": "https://github.com/HoneATCS/homework-Node.js-hw01-module#readme",
+    "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
