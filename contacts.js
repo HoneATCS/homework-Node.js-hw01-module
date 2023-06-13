@@ -5,8 +5,6 @@ const crypto = require("node:crypto");
 
 const PATH_TO_FILE = path.join(__dirname, "db", "contacts.json");
 
-const contactsPath = path.join(PATH_TO_FILE);
-
 const listContacts = async () => {
   const data = await fs.readFile(contactsPath);
   return JSON.parse(data);
